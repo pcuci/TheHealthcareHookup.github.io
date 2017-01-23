@@ -1,2 +1,3 @@
-# TheHealthcareHookup.github.io
-The Healthcare Hookup Website
+# The Healthcare Hookup Inc.
+
+http://thehealthcarehookup.com
