@@ -1,5 +1,7 @@
 #!/bin/bash
 
-wget -P web --timestamping --convert-links --page-requisites --no-directories --no-host-directories -erobots=off -l1 --span-hosts --adjust-extension https://sites.google.com/view/thehealthcarehookup
+rm -rf en
 
-mv web/thehealthcarehookup.html web/index.html
+wget -P en -l1 --span-hosts -mkEpnp -nd https://sites.google.com/view/thehealthcarehookup
+
+mv en/thehealthcarehookup.html en/index.html
