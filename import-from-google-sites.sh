@@ -1,3 +1,3 @@
 #!/bin/bash
 
-wget -P web --timestamping --convert-links --page-requisites --no-host-directories -erobots=off -l1 --span-hosts --adjust-extension https://sites.google.com/view/thehealthcarehookup
+wget -P web --timestamping --convert-links --page-requisites --no-directories --no-host-directories -erobots=off -l1 --span-hosts --adjust-extension https://sites.google.com/view/thehealthcarehookup
